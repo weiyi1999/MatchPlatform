@@ -15,13 +15,40 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items:center;
   color: white;
+}
+.item1{
+  flex-basis: 90%;
+  text-align: left;
+  font-style: oblique;
+  font-size: calc(15px + 2vmin);
+}
+.item2{
+  flex-basis: 5%;
+  
+}
+.item3{
+  flex-basis: 5%;
+}
+
+.App-footer{
+  background-color: #282c34;
+  min-height: 5vh;
+  color: white;
+}
+
+.App-body{
+  min-height: 85vh;
+  display: flex;
+}
+.left-item{
+  flex-basis: 20%;
+}
+.right-item{
+  flex-basis: 80%;
 }
 
 .App-link {
